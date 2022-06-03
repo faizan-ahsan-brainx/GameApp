@@ -16,6 +16,10 @@
 		D9F62E0328493B6A00F2732D /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F62E0228493B6A00F2732D /* GamesViewController.swift */; };
 		D9F62E0528493B8400F2732D /* AppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F62E0428493B8400F2732D /* AppsViewController.swift */; };
 		D9F62E0C2849C59400F2732D /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F62E0B2849C59400F2732D /* TodayView.swift */; };
+		D9F62E142849E60200F2732D /* TableViewCellType1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F62E122849E60200F2732D /* TableViewCellType1.swift */; };
+		D9F62E182849E61400F2732D /* TableViewCellType2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F62E162849E61400F2732D /* TableViewCellType2.swift */; };
+		D9F62E1C2849EAB800F2732D /* Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F62E1B2849EAB800F2732D /* Today.swift */; };
+		D9F62E1E284A271400F2732D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F62E1D284A271400F2732D /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		D9F62E0228493B6A00F2732D /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
 		D9F62E0428493B8400F2732D /* AppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsViewController.swift; sourceTree = "<group>"; };
 		D9F62E0B2849C59400F2732D /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		D9F62E122849E60200F2732D /* TableViewCellType1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellType1.swift; sourceTree = "<group>"; };
+		D9F62E162849E61400F2732D /* TableViewCellType2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellType2.swift; sourceTree = "<group>"; };
+		D9F62E1B2849EAB800F2732D /* Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today.swift; sourceTree = "<group>"; };
+		D9F62E1D284A271400F2732D /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,8 @@
 		D9F62DEA2849342B00F2732D /* GameApp */ = {
 			isa = PBXGroup;
 			children = (
+				D9F62E1A2849EAAB00F2732D /* Models */,
+				D9F62E0D2849E4A700F2732D /* CustomCells */,
 				D9F62E0A2849C57600F2732D /* Views */,
 				D9F62DFF28493B0200F2732D /* Controllers */,
 				D9F62DEB2849342B00F2732D /* AppDelegate.swift */,
@@ -88,8 +98,26 @@
 			isa = PBXGroup;
 			children = (
 				D9F62E0B2849C59400F2732D /* TodayView.swift */,
+				D9F62E1D284A271400F2732D /* GameView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		D9F62E0D2849E4A700F2732D /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				D9F62E122849E60200F2732D /* TableViewCellType1.swift */,
+				D9F62E162849E61400F2732D /* TableViewCellType2.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		D9F62E1A2849EAAB00F2732D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D9F62E1B2849EAB800F2732D /* Today.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,10 +193,14 @@
 			files = (
 				D9F62DEC2849342B00F2732D /* AppDelegate.swift in Sources */,
 				D9F62E0528493B8400F2732D /* AppsViewController.swift in Sources */,
+				D9F62E182849E61400F2732D /* TableViewCellType2.swift in Sources */,
 				D9F62E0C2849C59400F2732D /* TodayView.swift in Sources */,
+				D9F62E1E284A271400F2732D /* GameView.swift in Sources */,
+				D9F62E1C2849EAB800F2732D /* Today.swift in Sources */,
 				D9F62DEE2849342B00F2732D /* SceneDelegate.swift in Sources */,
 				D9F62E0128493B3100F2732D /* TodayViewController.swift in Sources */,
 				D9F62E0328493B6A00F2732D /* GamesViewController.swift in Sources */,
+				D9F62E142849E60200F2732D /* TableViewCellType1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
